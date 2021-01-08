@@ -1,0 +1,126 @@
+body{
+	margin:0px;
+    padding:0px;
+    background-color:black;
+	overflow-x: hidden;
+}
+.obj{
+    justify-content: center;
+	display: flex;
+}
+#curt{
+	position:absolute;
+	bottom:0px;
+	transition-property: bottom;
+    transition-duration: 0.2s;
+    z-index:100;
+}
+#lampobj{
+	position:relative;
+	top:100px;
+	display: flex;
+    justify-content: center;
+}
+#lampclick{
+    width:90px;
+    height:245px;
+    opacity:0;
+	position:absolute;
+	z-index:90;
+}
+#lamp{
+	width:85px;
+    height:245px;
+    position:absolute;
+    z-index:50;
+}
+#switch{	
+    width:8px;
+    height:65px;
+    left:58px;
+	top:24px;
+    position:relative;
+    transition-property: top;
+    transition-duration: 0.1s;
+	z-index:60;
+}
+#head{
+    width:90px;
+    height:50px;
+    right:-36px;
+	position:relative;
+	z-index:70;
+}
+#blackout{
+    width:78px;
+    height:82px;
+    right:45px;
+    bottom:80px;
+    background-color:black;
+	position:relative;	
+	z-index:70;
+}
+#light{
+    width:0px;
+    height:0px;
+    top:62.5px;
+    border-left:375px solid transparent;
+	border-right:375px solid transparent;
+	border-bottom:700px solid black;
+    position:absolute;
+    transition-property: opacity,border-bottom-color,z-index;
+    transition-duration: 0.2s;
+    opacity:1;
+	z-index:40;
+}
+#magicobj{
+	position:relative;
+	top:475px;
+	display: flex;
+    justify-content: center;
+}
+#hatclick{
+    width:87px;
+    height:100px;
+    top:-90px;
+    left:460px;
+    position:relative;
+    opacity:0;
+	z-index:90;
+}
+#magic{
+    width:220px;
+    height:200px;
+    top:-20px;
+    left:50px;
+	position:relative;
+	z-index:30;
+}
+#rabbit{
+    width:125px;
+    height:100px;
+    top:-100px;
+    left:130px;
+    position:relative;
+    transition-property: top;
+    transition-duration: 0.5s;
+	z-index:6;
+}
+#pigeon{
+    width:100px;
+    height:90px;
+    top:50px;
+    left:25px;
+    position:relative;
+    transition-property: top;
+    transition-duration: 0.5s;
+	z-index:5;
+}
+#hat{
+    width:250px;
+    height:200px;
+    right:155px;
+	position:relative;
+	transform: rotate(180deg);
+	z-index:20;
+}
